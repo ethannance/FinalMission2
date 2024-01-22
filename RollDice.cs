@@ -10,18 +10,17 @@ using System.Threading.Tasks;
 
 namespace FinalMission2
 {
-    //Create the RollDice class
     class RollDice
     {
         //Create the RollDicemethod that receives HowManyRolls as a parameter
         public static int[] RollDiceMethod(int HowManyRolls)
         {
-            //Initialize dice and total
+           
             int die1 = 0;
             int die2 = 0;
             int total = 0;
 
-            //Create random 
+            
             Random random = new Random();
 
             //Create rollTtoals array
@@ -39,7 +38,7 @@ namespace FinalMission2
                 rollTotals[total - 2]++;
             }
 
-            //This is what the method is returning, this array
+            
             return rollTotals;
 
         }

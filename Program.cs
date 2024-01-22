@@ -1,6 +1,5 @@
 ﻿//Ethan Nance Section 04 group 11
 //program that rolls dice 
-//test change
 
 namespace FinalMission2;
 
@@ -21,7 +20,7 @@ class Messages
         //into a new varaible called rollTotalsReceived
         int[] rollTotalsReceived = RollDice.RollDiceMethod(HowManyRolls);
 
-        //Write helpful information
+      
         Console.WriteLine("DICE ROLLING SIMULATION RESULTS");
         Console.WriteLine("Each \"*\" represents 1% of the total number of rolls.");
         Console.WriteLine($"Total number of rolls = {HowManyRolls}.");
@@ -42,7 +41,7 @@ class Messages
             //Moves to new line
             Console.WriteLine();
         }
-        //bye bye
+        
         Console.WriteLine("Thank you for using the dice throwing simulator. Goodbye!");
     }
 }
